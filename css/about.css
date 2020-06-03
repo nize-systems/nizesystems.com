@@ -1,0 +1,77 @@
+h1, p {
+    font-family: "GT America", sans-serif;
+}
+
+#about {
+    background-image: url(../img/foothill.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 617.29px;
+    position: relative;
+    z-index: -1;
+}
+
+#about-text {
+    width: 26%;
+    padding: 2.5% 5.5% 5% 4%;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background: rgba(0, 0, 0, 0.49);
+    box-shadow: 43px -43px 73px 20px rgba(0, 0, 0, 0.52);
+    border-radius: 0px 100px 0px 0px;
+    z-index: 0;
+}
+
+#about-text h1 {
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 3.5%;
+}
+
+#about-text p {
+    line-height: 22px;
+}
+
+#gradient-bar {
+    position: relative;
+    height: 27px;
+    background: linear-gradient(90.12deg, #7A94FF, #7B5EDF 100%);
+    z-index: -1;
+}
+
+#gray-rectangle {
+    position: relative;
+    height: 301px;
+    background: #F4F4F4;
+}
+
+#leadership-photos {
+    position: relative;
+    top: -355px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0 4.5vw;
+}
+
+.leadership-photo {
+    max-width: 150px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: white;
+    /* transform: matrix(1, 0, 0, -1, 0, 0); */
+}
+
+.leader-image {
+    border-radius: 8px 8px 0px 0px;
+}
+
+.leader-text {
+    background-color: white;
+}
+
+.leader-text p:first-child {
+    color: #7A94FF;
+}
