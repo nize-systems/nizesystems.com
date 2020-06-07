@@ -1,0 +1,108 @@
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: "GT America", sans-serif;
+}
+
+.blue-text {
+    color: #7A94FF;
+}
+
+footer {
+    background-color: #222222;
+    position: relative;
+    display: table;
+    height: 265px;
+    width: 100%;
+    overflow: hidden;
+}
+
+footer p {
+    color: white;
+    display: block;
+    margin: 10px 0;
+}
+
+#link-list-left a, #link-list-right > a {
+    color: white;
+    display: block;
+    margin: 10px 0;
+}
+
+footer i {
+    background-color: white;
+    color: #222222;
+}
+
+footer .link-list {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+    width: 50%;
+}
+
+#link-list-left {
+    text-align: right;
+    padding-right: 19%;
+}
+
+#link-list-right {
+    padding-left: 19%;
+}
+
+#social-media-icons i {
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-top: 12px;
+}
+
+footer img {
+    position: absolute;
+    width: 174px;
+    height: 97px;
+    left: 50%;
+    margin-left: -87px;
+    top: calc(50% - 9px);
+    margin-top: -48.5px;
+}
+
+.footer-circle {
+    position: absolute;
+    display: inline;
+    box-sizing: border-box;
+}
+
+#smallest-circle {
+    width: 281px;
+    height: 281px;
+    left: 50%;
+    margin-left: -140.5px;
+    bottom: 9px;
+    border: 5px solid rgba(122, 148, 255, 0.75);
+    border-radius: 140.5px;
+}
+
+#medium-circle {
+    width: 372px;
+    height: 372px;
+    left: 50%;
+    margin-left: -186px;
+    top: calc(50% - 18px);   
+    margin-top: -186px;
+    border: 20px solid rgba(122, 148, 255, 0.5);
+    border-radius: 186px; 
+}
+
+#biggest-circle {
+    width: 964px;
+    height: 964px;
+    left: 50%;
+    margin-left: -482px;
+    top: calc(50% - 18px);
+    margin-top: -482px;
+    border: 5px solid rgba(123, 94, 223, 0.75);
+    border-radius: 482px;
+}
