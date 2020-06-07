@@ -1,4 +1,4 @@
-h1, p {
+h1, h2, p {
     font-family: "GT America", sans-serif;
 }
 
@@ -13,13 +13,13 @@ h1, p {
 
 #about-text {
     width: 26%;
-    padding: 2.5% 5.5% 5% 4%;
+    padding: 2.5% 3.5% 5% 4%;
     display: inline-block;
     position: absolute;
     bottom: 0;
     color: white;
-    background: rgba(0, 0, 0, 0.49);
-    box-shadow: 43px -43px 73px 20px rgba(0, 0, 0, 0.52);
+    background: rgba(0, 0, 0, 0.52);
+    box-shadow: 12px -10px 70px 20px rgba(0, 0, 0, 0.64);
     border-radius: 0px 100px 0px 0px;
     z-index: 0;
 }
@@ -39,6 +39,7 @@ h1, p {
     height: 27px;
     background: linear-gradient(90.12deg, #7A94FF, #7B5EDF 100%);
     z-index: -1;
+    top: -2px;
 }
 
 #gray-rectangle {
@@ -49,15 +50,16 @@ h1, p {
 
 #leadership-photos {
     position: relative;
-    top: -355px;
     display: flex;
+    background-color: #F4F4F4;
     flex-flow: row wrap;
     justify-content: space-around;
-    margin: 0 4.5vw;
+    padding: 25px 4.5vw;
 }
 
 .leadership-photo {
     max-width: 150px;
+    margin-top: -80px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     background: white;
@@ -70,8 +72,272 @@ h1, p {
 
 .leader-text {
     background-color: white;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 17px;
+    margin-right: 34px;
 }
 
 .leader-text p:first-child {
+    margin-top: 11px;
+    margin-bottom: 6px;
+}
+
+.leader-text p:last-child {
     color: #7A94FF;
+    margin-bottom: 26px;
+}
+
+#advisors-team {
+    display: flex;
+}
+
+#advisors {
+    display: inline-block;
+    width: 36.7vw;
+    padding-left: 4vw;
+    margin-top: 41px;
+    margin-bottom: 119px;
+}
+
+#advisors h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 41px;
+    width: 100%;
+}
+
+.advisor {
+    display: inline-block;
+    width: 12.4vw;
+    margin-right: 1.9vw;
+}
+
+.advisor img {
+    width: 100%;
+    margin-bottom: 23px;
+}
+
+.advisor p {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.advisor-description {
+    color: #7A94FF;
+}
+
+#team {
+    display: inline-block;
+    background-image: url("../img/foothill.png");
+    flex-grow: 1;
+}
+
+#team-shadow-box {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 50px 5px 50px 30px rgba(0, 0, 0, 0.40);
+    margin-bottom: 40px;
+}
+
+#team h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 28px;
+    width: 100%;
+    margin-top: 41px;
+    margin-left: 2.7vw;
+}
+
+#team p {
+    color: white;
+    margin: 12px 0;
+}
+
+.team-list {
+    width: 13.7vw;
+    vertical-align: top;
+}
+
+#team-list-left {
+    display: inline-block;
+    margin-left: 2.7vw;
+}
+
+#team-list-right {
+    display: inline-block;
+}h1, h2, p {
+    font-family: "GT America", sans-serif;
+}
+
+#about {
+    background-image: url(../img/foothill.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 617.29px;
+    position: relative;
+    z-index: -1;
+}
+
+#about-text {
+    width: 26%;
+    padding: 2.5% 3.5% 5% 4%;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background: rgba(0, 0, 0, 0.52);
+    box-shadow: 12px -10px 70px 20px rgba(0, 0, 0, 0.64);
+    border-radius: 0px 100px 0px 0px;
+    z-index: 0;
+}
+
+#about-text h1 {
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 3.5%;
+}
+
+#about-text p {
+    line-height: 22px;
+}
+
+#gradient-bar {
+    position: relative;
+    height: 27px;
+    background: linear-gradient(90.12deg, #7A94FF, #7B5EDF 100%);
+    z-index: -1;
+    top: -2px;
+}
+
+#gray-rectangle {
+    position: relative;
+    height: 301px;
+    background: #F4F4F4;
+}
+
+#leadership-photos {
+    position: relative;
+    display: flex;
+    background-color: #F4F4F4;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 25px 4.5vw;
+}
+
+.leadership-photo {
+    max-width: 150px;
+    margin-top: -80px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: white;
+    /* transform: matrix(1, 0, 0, -1, 0, 0); */
+}
+
+.leader-image {
+    border-radius: 8px 8px 0px 0px;
+}
+
+.leader-text {
+    background-color: white;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 17px;
+    margin-right: 34px;
+}
+
+.leader-text p:first-child {
+    margin-top: 11px;
+    margin-bottom: 6px;
+}
+
+.leader-text p:last-child {
+    color: #7A94FF;
+    margin-bottom: 26px;
+}
+
+#advisors-team {
+    display: flex;
+}
+
+#advisors {
+    display: inline-block;
+    width: 36.7vw;
+    padding-left: 4vw;
+    margin-top: 41px;
+    margin-bottom: 119px;
+}
+
+#advisors h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 41px;
+    width: 100%;
+}
+
+.advisor {
+    display: inline-block;
+    width: 12.4vw;
+    margin-right: 1.9vw;
+}
+
+.advisor img {
+    width: 100%;
+    margin-bottom: 23px;
+}
+
+.advisor p {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.advisor-description {
+    color: #7A94FF;
+}
+
+#team {
+    display: inline-block;
+    background-image: url("../img/foothill.png");
+    flex-grow: 1;
+}
+
+#team-shadow-box {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 50px 5px 50px 30px rgba(0, 0, 0, 0.40);
+    margin-bottom: 40px;
+}
+
+#team h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 28px;
+    width: 100%;
+    margin-top: 41px;
+    margin-left: 2.7vw;
+}
+
+#team p {
+    color: white;
+    margin: 12px 0;
+}
+
+.team-list {
+    width: 13.7vw;
+    vertical-align: top;
+}
+
+#full-team-list {
+    padding-bottom: 40px;
+}
+
+#team-list-left {
+    display: inline-block;
+    margin-left: 2.7vw;
+}
+
+#team-list-right {
+    display: inline-block;
 }
